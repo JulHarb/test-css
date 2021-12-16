@@ -6,9 +6,9 @@
 }
 body
 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  justify-items: center;
+  align-items:center;
   min-height: 100vh;
   background: #050505;
 }
@@ -80,3 +80,10 @@ body
   0 0 400px rgba(255,0,0.8),
   0 0 500px rgb(255, 0, 0);
 }
+/* space evenly
+justify content(or items) = horizontal
+align = vertical */
+
+/* projet bb
+prendre beaucoup d'espace, image gauche texte court droite
+image droite texte court gauche, etc, s'ettendre vers le bas autant que possible*/
